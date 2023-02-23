@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-     <Header res = {dt} />
+     <Header res = {dt}/>
   
     </>
   );
