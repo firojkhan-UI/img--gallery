@@ -3,21 +3,20 @@ import Cards from './Cards';
 const WrapperHeader = styled.div`
     box-sizing: border-box;
     width: 100%;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     background: green;
 `
 const WrapperCards = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 `
 
 const Header = props => {
     const dt = props.res;
     return (
         <>
-        <WrapperHeader />
+    <WrapperHeader style={{color:'#800025',fontWeight: '400',fontSize:'1.5rem'}}>Tamanna Gallery</WrapperHeader>
         <WrapperCards>
         {dt?.map( (item) => 
         <Cards 
